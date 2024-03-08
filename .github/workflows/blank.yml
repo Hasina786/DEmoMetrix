@@ -25,7 +25,7 @@ jobs:
       company: acccenture
     steps:
       - name: varibles
-        run: echo "my name is $name. Day is $Day and Company is $company refrenece of $GITHUB_REF"
+        run: echo "my name is $name. Day is $Day and Company is $company"
       - name: matrixa
         run: echo ${{matrix.version}} 
       - name: test  
